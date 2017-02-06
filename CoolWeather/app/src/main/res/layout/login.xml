@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg0_fine_night">
+
+    <Button
+        android:text="Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:id="@+id/Weather_login"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Weather_login"
+        android:layout_alignStart="@+id/Weather_login"
+        android:layout_marginTop="87dp"
+        android:id="@+id/Location_login"
+        android:background="@drawable/shape"/>
+</RelativeLayout>
